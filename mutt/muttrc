@@ -94,4 +94,4 @@ color status     yellow       blue
 color tilde      magenta      default
 color tree       magenta      default
 
-source $MAILCONF/mutt-colors-solarized/mutt-colors-solarized-light-256.muttrc
+source $HOME/.mutt/mutt-colors-solarized/mutt-colors-solarized-light-256.muttrc
