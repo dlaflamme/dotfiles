@@ -10,3 +10,6 @@
 [submodule "vim/bundle/fugitive"]
 	path = vim/bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/mercenary"]
+	path = vim/bundle/mercenary
+	url = git://github.com/phleet/vim-mercenary.git
