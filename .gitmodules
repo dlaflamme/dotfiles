@@ -13,3 +13,6 @@
 [submodule "vim/bundle/mercenary"]
 	path = vim/bundle/mercenary
 	url = git://github.com/phleet/vim-mercenary.git
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
