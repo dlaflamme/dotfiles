@@ -1,5 +1,5 @@
 syntax on
-colorscheme inkpot
+colorscheme blacklight
 
 set hidden
 set autoindent
