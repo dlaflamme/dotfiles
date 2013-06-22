@@ -35,6 +35,7 @@ call pathogen#infect()
 if has("autocmd")
 	" Enable filetype detection
 	filetype on
+	filetype plugin on
 	autocmd Syntax c,cpp,groovy,java,vim,xml,html,xhtml setlocal foldmethod=syntax
 	autocmd Syntax c,cpp,groovy,java,vim,xml,html,xhtml,perl normal zR
 	autocmd BufNewFile,BufRead *.config,*.dcat,*.gm,*.g,*.gr,*.gsp setfiletype groovy
