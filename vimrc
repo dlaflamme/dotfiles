@@ -5,6 +5,7 @@ set hidden
 set autoindent
 set smartindent
 set hlsearch
+set incsearch
 
 set tabstop=8
 set softtabstop=4
