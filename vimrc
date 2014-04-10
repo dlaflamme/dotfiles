@@ -38,6 +38,7 @@ if has("autocmd")
 	filetype on
 	filetype plugin on
 	autocmd Syntax c,cpp,groovy,java,vim,xml,html,xhtml setlocal foldmethod=syntax
+	autocmd Syntax xml,html,xhtml setlocal foldmethod=indent
 	autocmd Syntax c,cpp,groovy,java,vim,xml,html,xhtml,perl normal zR
 	autocmd BufNewFile,BufRead *.config,*.dcat,*.gm,*.g,*.gr,*.gsp setfiletype groovy
 	autocmd BufNewFile,BufRead *.log,*messages setfiletype log4j 
