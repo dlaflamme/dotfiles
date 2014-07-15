@@ -46,3 +46,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
+export EDITOR=vim
