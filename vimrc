@@ -3,14 +3,14 @@ colorscheme blacklight
 
 set hidden
 set autoindent
-set smartindent
+"set smartindent
 set hlsearch
 set incsearch
 
-set tabstop=8
-set softtabstop=4
+filetype plugin indent on
+set tabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 
 "set foldmethod=indent
 set nocompatible   " Disable vi-compatibility
