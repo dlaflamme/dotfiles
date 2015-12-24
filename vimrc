@@ -1,5 +1,11 @@
 syntax on
-colorscheme blacklight
+colorscheme molokai
+
+if &diff
+    colorscheme jellybeans
+endif
+
+
 
 set hidden
 set autoindent
