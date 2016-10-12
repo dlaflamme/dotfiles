@@ -1,10 +1,3 @@
-syntax on
-colorscheme molokai
-
-if &diff
-    colorscheme jellybeans
-endif
-
 
 
 set hidden
@@ -36,6 +29,12 @@ imap <left> <nop>
 imap <right> <nop>
 
 let mapleader = ","
+
+syntax on
+colorscheme molokai
+if &diff
+    colorscheme jellybeans
+endif
 
 call pathogen#infect()
 
