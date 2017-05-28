@@ -9,3 +9,4 @@ Locale=C
 Charset=UTF-8
 CursorColour=255,128,192
 FontSmoothing=default
+BellType=0
