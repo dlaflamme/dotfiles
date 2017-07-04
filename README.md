@@ -31,4 +31,5 @@ Installation
 git clone git://github.com/dlaflamme/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./makesymlinks.sh
-./setupsubmodules.sh```
+./setupsubmodules.sh
+```
