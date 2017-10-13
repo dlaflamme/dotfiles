@@ -32,4 +32,8 @@ git clone git://github.com/dlaflamme/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./makesymlinks.sh
 ./setupsubmodules.sh
+cd oh-my-zsh/custom/plugins
+git clone ssh://git@git.MASKED/staging/MASKED/zsh-plugin-MASKED
+vi MASKED/local.conf
+
 ```
