@@ -35,5 +35,11 @@ cd ~/dotfiles
 cd oh-my-zsh/custom/plugins
 git clone ssh://git@git.MASKED/staging/MASKED/zsh-plugin-MASKED
 vi MASKED/local.conf
+```
 
+Maintenance
+------------
+
+``` bash
+git submodule update --recursive --remote
 ```
