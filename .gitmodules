@@ -55,9 +55,6 @@
 [submodule "vim/bundle/gv"]
 	path = vim/bundle/gv
 	url = https://github.com/junegunn/gv.vim
-[submodule "vim-trailing-whitespace"]
-	path = vim-trailing-whitespace
-	url = https://github.com/bronson/vim-trailing-whitespace
 [submodule "vim/bundle/vim-airline"]
 	path = vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline
