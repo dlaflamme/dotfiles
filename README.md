@@ -40,6 +40,14 @@ vi MASKED/local.conf
 Maintenance
 ------------
 
+Add a new submodule
+``` bash
+git submodule add git://github.com/airblade/vim-gitgutter.git vim/bundle/vim-gitgutter
+git commit -a -m 'add vim-gitgutter'
+git push origin master
+```
+
+Update submodules
 ``` bash
 git submodule update --recursive --remote
 ```
