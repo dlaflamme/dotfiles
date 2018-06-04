@@ -96,7 +96,7 @@ BackgroundColour=34,34,37
 
 # idleToes
 ForegroundColour=255,255,255
-BackgroundColour=40,40,40
+BackgroundColour=30,30,30
 Black=50,50,50
 BoldBlack=83,83,83
 Red=210,82,82
