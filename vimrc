@@ -48,9 +48,6 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.log,*messages setfiletype log4j 
 endif
 
-" Map NERDTreeToggle to convenient key
-nmap <leader>n :NERDTreeToggle<cr>
-
 " Map TagbarToggle to convenient key
 nmap <leader>t :TagbarToggle<cr>
 " Tagbar support for groovy
