@@ -31,4 +31,23 @@ Installation
 git clone git://github.com/dlaflamme/dotfiles ~/dotfiles
 cd ~/dotfiles
 ./makesymlinks.sh
+./setupsubmodules.sh
+cd oh-my-zsh/custom/plugins
+git clone ssh://git@git.MASKED/staging/MASKED/zsh-plugin-MASKED
+vi MASKED/local.conf
+```
+
+Maintenance
+------------
+
+Add a new submodule
+``` bash
+git submodule add git://github.com/airblade/vim-gitgutter.git vim/bundle/vim-gitgutter
+git commit -a -m 'add vim-gitgutter'
+git push origin master
+```
+
+Update submodules
+``` bash
+git submodule update --recursive --remote
 ```

@@ -1,5 +1,9 @@
+colorscheme molokai
+if &diff
+    colorscheme jellybeans
+endif
 
-
+syntax on
 set hidden
 set autoindent
 "set smartindent
@@ -11,7 +15,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-"set foldmethod=indent
+set foldmethod=indent
 set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
@@ -42,15 +46,12 @@ if has("autocmd")
 	" Enable filetype detection
 	filetype on
 	filetype plugin on
-	autocmd Syntax c,cpp,groovy,java,vim,xml,html,xhtml setlocal foldmethod=syntax
+	autocmd Syntax c,cpp,python,groovy,java,scala,vim setlocal foldmethod=syntax
 	autocmd Syntax xml,html,xhtml setlocal foldmethod=indent
-	autocmd Syntax c,cpp,groovy,java,vim,xml,html,xhtml,perl normal zR
-	autocmd BufNewFile,BufRead *.config,*.dcat,*.gm,*.g,*.gr,*.gsp setfiletype groovy
+	autocmd Syntax c,cpp,groovy,python,java,scala,vim,xml,html,xhtml,perl normal zR
+	autocmd BufNewFile,BufRead *.gsp,*.groovy setfiletype groovy
 	autocmd BufNewFile,BufRead *.log,*messages setfiletype log4j 
 endif
-
-" Map NERDTreeToggle to convenient key
-nmap <leader>n :NERDTreeToggle<cr>
 
 " Map TagbarToggle to convenient key
 nmap <leader>t :TagbarToggle<cr>
